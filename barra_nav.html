@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renann.ntj</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            background-color: black;
+            color: white;
+        }
+        div {
+            display: inline-block;
+            width: 100vh;
+            height: 30px;
+            background-color: rgb(39, 39, 39);
+        }
+        ul {
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            gap: 20px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        ul li {
+            list-style: none;
+        }
+        ul li a {
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            padding: 5px;
+            transition: 0.5s ease;
+        }
+        ul:hover li a {
+            color: #30edf4;
+        }
+        ul:hover li a:not(:hover) {
+            color: white;
+            opacity: 0.3;
+            filter: blur(1px);
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="https://github.com/Renanntj" target="_blank">Criador</a></li>
+            <li><a href="#">Serviços</a></li>
+        </ul>
+    </div>
+</body>
+</html>
